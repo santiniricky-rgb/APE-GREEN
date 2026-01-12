@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="light" lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Home - ApeGreen Service</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec", // Deep Blue
+                        "accent": "#4CAF50", // Vibrant Green
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#0d121b] dark:text-white transition-colors duration-200">
+<div class="bg-background-dark border-b border-gray-800 text-gray-300 text-sm py-2 relative z-50">
+<div class="max-w-[1200px] mx-auto px-6 flex justify-between items-center">
+<span class="text-xs font-bold text-accent uppercase tracking-wider hidden sm:block">Certificazione Energetica Online</span>
+<a class="flex items-center gap-2 hover:text-white transition-colors ml-auto" href="mailto:infoapegreen@gmail.com">
+<span class="material-symbols-outlined text-[18px] text-accent">mail</span>
+                infoapegreen@gmail.com
+           </a>
+</div>
+</div>
+<div class="sticky top-0 z-50 w-full border-b border-[#e7ebf3] dark:border-gray-800 bg-white dark:bg-[#1a2333]">
+<div class="flex items-center justify-between px-6 py-4 max-w-[1200px] mx-auto">
+<div class="flex items-center gap-3">
+<div class="size-8 text-accent flex items-center justify-center">
+<span class="material-symbols-outlined !text-3xl">eco</span>
+</div>
+<h2 class="text-[#0d121b] dark:text-white text-xl font-bold tracking-tight">ApeGreen</h2>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-[#0d121b] dark:text-gray-300 hover:text-accent dark:hover:text-accent text-sm font-medium transition-colors" href="#">Home</a>
+<a class="text-[#0d121b] dark:text-gray-300 hover:text-accent dark:hover:text-accent text-sm font-medium transition-colors" href="#">Servizi</a>
+<a class="text-[#0d121b] dark:text-gray-300 hover:text-accent dark:hover:text-accent text-sm font-medium transition-colors" href="#">Prezzi</a>
+<a class="text-[#0d121b] dark:text-gray-300 hover:text-accent dark:hover:text-accent text-sm font-medium transition-colors" href="#">FAQ</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden sm:flex px-4 py-2 text-primary font-bold text-sm hover:bg-primary/10 rounded-lg transition-colors">
+                    Login
+                </button>
+<button class="flex items-center justify-center rounded-lg h-10 px-6 bg-primary hover:bg-blue-700 text-white text-sm font-bold shadow-lg shadow-blue-500/20 transition-all transform hover:scale-105">
+                    Richiedi APE
+                </button>
+</div>
+</div>
+</div>
+<div class="relative w-full overflow-hidden bg-[#0d121b]">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center" data-alt="Modern energy-efficient building with solar panels representing sustainability" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCUO7M-t7G9UOhh21fZlyHzr9hwcAtZZb-_CRSk-KbFjzckJCFaC2CXCV34tjiSIK1hfsUoN-GZAdiQKCvUHbDhU-i_p7ur6TZX2ekYe3bZSixY4sYmACx-lMzzxZUqxYFElS1y3CqC7G359q6WihH8D2CM2YDfqDKB0OzT6ScUXU-xcvBAZdOVaLu3kY2-wnNrdo-ZNIez3AT4NYCKzaAiFzqxxLpragysN3Xp_Lp5KpoMiX6v6jEh7r9C_XFaU3OFip-C3iAbwrY");'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-r from-[#0d121b] via-[#0d121b]/80 to-[#0d121b]/40"></div>
+</div>
+<div class="relative z-10 max-w-[1200px] mx-auto px-6 py-20 lg:py-32">
+<div class="flex flex-col max-w-[600px] gap-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 w-fit backdrop-blur-sm">
+<span class="block size-2 rounded-full bg-accent animate-pulse"></span>
+<span class="text-white text-xs font-semibold tracking-wide uppercase">Servizio Attivo 24/7</span>
+</div>
+<h1 class="text-white text-4xl lg:text-6xl font-black leading-tight tracking-tight">
+                    Il tuo certificato <span class="text-accent bg-white/10 px-2 rounded-md backdrop-blur-sm">APE</span><br/> in 3 click.
+                </h1>
+<p class="text-gray-300 text-lg leading-relaxed max-w-[480px]">
+                    Servizio rapido e professionale per Piemonte, Lombardia e Liguria. Ricevi il tuo attestato di prestazione energetica in sole 48 ore.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 mt-4">
+<button class="flex items-center justify-center rounded-lg h-12 px-8 bg-accent hover:bg-green-600 text-white text-base font-bold shadow-lg shadow-green-500/30 transition-all transform hover:-translate-y-1">
+                        Inizia Ora
+                        <span class="material-symbols-outlined ml-2 text-xl">arrow_forward</span>
+</button>
+<button class="flex items-center justify-center rounded-lg h-12 px-6 bg-white/10 hover:bg-white/20 text-white border border-white/20 backdrop-blur-sm text-base font-medium transition-all">
+                        Scopri Prezzi
+                    </button>
+</div>
+<div class="flex items-center gap-4 mt-6 text-sm text-gray-400">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-accent text-lg">check_circle</span>
+<span>Tecnici certificati</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-accent text-lg">check_circle</span>
+<span>Valido per legge</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full bg-white dark:bg-[#1a2333] border-b border-gray-100 dark:border-gray-800">
+<div class="max-w-[1200px] mx-auto px-6 py-8">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="flex flex-col items-center justify-center text-center gap-1">
+<span class="text-3xl font-black text-[#0d121b] dark:text-white">10.000+</span>
+<span class="text-sm font-medium text-gray-500 dark:text-gray-400">Certificati Emessi</span>
+</div>
+<div class="flex flex-col items-center justify-center text-center gap-1">
+<span class="text-3xl font-black text-[#0d121b] dark:text-white">48h</span>
+<span class="text-sm font-medium text-gray-500 dark:text-gray-400">Tempo Medio Consegna</span>
+</div>
+<div class="flex flex-col items-center justify-center text-center gap-1">
+<span class="text-3xl font-black text-[#0d121b] dark:text-white">100%</span>
+<span class="text-sm font-medium text-gray-500 dark:text-gray-400">Online e Sicuro</span>
+</div>
+<div class="flex flex-col items-center justify-center text-center gap-1">
+<div class="flex text-accent">
+<span class="material-symbols-outlined fill-current text-2xl">star</span>
+<span class="material-symbols-outlined fill-current text-2xl">star</span>
+<span class="material-symbols-outlined fill-current text-2xl">star</span>
+<span class="material-symbols-outlined fill-current text-2xl">star</span>
+<span class="material-symbols-outlined fill-current text-2xl">star_half</span>
+</div>
+<span class="text-sm font-medium text-gray-500 dark:text-gray-400">4.9/5 Recensioni</span>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full bg-background-light dark:bg-background-dark py-16">
+<div class="max-w-[960px] mx-auto px-6 flex flex-col gap-16">
+<div class="flex flex-col gap-8">
+<div class="text-center">
+<span class="text-accent font-bold tracking-wider uppercase text-xs mb-2 block">Copertura Territoriale</span>
+<h2 class="text-[#0d121b] dark:text-white text-3xl font-bold leading-tight">Seleziona la tua regione</h2>
+<p class="text-gray-500 dark:text-gray-400 mt-2">Scegli la regione dove è situato l'immobile per iniziare.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<a class="group relative flex flex-col gap-3 rounded-xl bg-white dark:bg-[#1e293b] p-3 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-transparent hover:border-accent/20" href="#">
+<div class="w-full aspect-video rounded-lg overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-110 transition-transform duration-500" data-alt="Turin skyline with Mole Antonelliana and mountains" data-location="Turin" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA9pHwbugNSPtZ1GNb85hh3lrzID5jtziB8O54FF6IBM_2i49Yt7mMJ6InK3fYkjfwTX0vaLZB9sXKAu3TnaRdDiJIF4hj1rbPo0NIdzRMOzdY06QI8S-wNIx2BwK76X1A0T0k6UiIX4z3F1anokIvndqsGkRt0UgG_Hf81k3-ucVShlC6GHS6rr0MbXjD3kcu-zJasqxGi_5QmtjHik1T_I39UsPPQ3lFtgRRTVgC9M8tU-8H1Jy_HGoF0uXtBuwJ_N0sv8tlJ27k");'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-3 left-3">
+<span class="bg-primary text-white text-[10px] font-bold px-2 py-1 rounded">TORINO E PROVINCIA</span>
+</div>
+</div>
+<div class="px-2 pb-2">
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold">Piemonte</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Servizio attivo a Torino, Cuneo, Asti e in tutta la regione.</p>
+<div class="mt-4 flex items-center text-primary text-sm font-semibold group-hover:text-accent transition-colors">
+                                Seleziona <span class="material-symbols-outlined ml-1 text-base">arrow_forward</span>
+</div>
+</div>
+</a>
+<a class="group relative flex flex-col gap-3 rounded-xl bg-white dark:bg-[#1e293b] p-3 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-transparent hover:border-accent/20 ring-2 ring-accent ring-offset-2 dark:ring-offset-[#101622]" href="#">
+<div class="absolute -top-3 -right-3 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg z-10">POPOLARE</div>
+<div class="w-full aspect-video rounded-lg overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-110 transition-transform duration-500" data-alt="Milan Cathedral Duomo gothic architecture" data-location="Milan" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuChCmRk1Mw3ViwSz3Xa1sC4mxgJm-zcTqDlhg83OsXcveAiHvUrUhk2ML3Gnsg16uSCNkuO7Yncr1WpuT74pUOibPfY9pmNOh2oezE6Lyzxh60aPtpoWYF-ZQvxWDhLVLSIw66kDdZZs2hXZeodY_me0LtiCBIeCZOdL6doVOsBHRtjHYnAfjWttaj7es1fuzaUHOxy1FFQWrVgnjH74RYw4dsCju4xH2A-m8kzyprdP-BhA4q8Xx_v9UdCOQrpgWhoFPJvjmG-qew");'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-3 left-3">
+<span class="bg-primary text-white text-[10px] font-bold px-2 py-1 rounded">MILANO E PROVINCIA</span>
+</div>
+</div>
+<div class="px-2 pb-2">
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold">Lombardia</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Disponibile a Milano, Bergamo, Brescia e tutta la regione.</p>
+<div class="mt-4 flex items-center text-primary text-sm font-semibold group-hover:text-accent transition-colors">
+                                Seleziona <span class="material-symbols-outlined ml-1 text-base">arrow_forward</span>
+</div>
+</div>
+</a>
+<a class="group relative flex flex-col gap-3 rounded-xl bg-white dark:bg-[#1e293b] p-3 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-transparent hover:border-accent/20" href="#">
+<div class="w-full aspect-video rounded-lg overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-110 transition-transform duration-500" data-alt="Colorful houses on the coast of Cinque Terre Liguria" data-location="Cinque Terre" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCEjC_oOhE1D5YRbN4bN6fAtViMRpL5TdlcxW3ZiMgcar6ODtDx9EPZlQwH0CiLoOn0I8jTUt_xsFJxtvDj1MvJlF226SO-kCaqAu5gMO1rAUXGiCmK6bt41a1Gvfupon1gJhD1YYTldvTpbSAQ76M6TMO1yL-nNcOssb2DdMgBtzK8nPHhwr0IduJZ2u0AUaP27N4o0tXMZItuyAxi6b2uG4wW1pGb1CT2a7hgwBm5GgIGRmbTBWCoN8DLbW5bg4IxECitIUiNPMw");'>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-3 left-3">
+<span class="bg-primary text-white text-[10px] font-bold px-2 py-1 rounded">GENOVA E PROVINCIA</span>
+</div>
+</div>
+<div class="px-2 pb-2">
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold">Liguria</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Copertura completa da Genova a La Spezia e Savona.</p>
+<div class="mt-4 flex items-center text-primary text-sm font-semibold group-hover:text-accent transition-colors">
+                                Seleziona <span class="material-symbols-outlined ml-1 text-base">arrow_forward</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="flex flex-col md:flex-row gap-10 items-center bg-white dark:bg-[#1e293b] rounded-2xl p-8 lg:p-12 shadow-sm border border-gray-100 dark:border-gray-800">
+<div class="flex flex-col gap-6 md:w-1/3">
+<h2 class="text-[#0d121b] dark:text-white text-3xl font-black leading-tight">
+                        Come funziona
+                    </h2>
+<p class="text-gray-500 dark:text-gray-400 text-base">
+                        Il processo più semplice sul mercato. Ottieni il tuo certificato in tre semplici passaggi, senza stress e senza uscire di casa.
+                    </p>
+<button class="w-fit text-accent font-bold text-sm flex items-center hover:text-green-600 transition-colors">
+                        Leggi le FAQ <span class="material-symbols-outlined ml-1 text-base">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-6 md:w-2/3">
+<div class="flex flex-col gap-4 relative">
+<div class="hidden sm:block absolute top-6 -right-1/2 w-full border-t-2 border-dashed border-gray-200 dark:border-gray-700 z-0"></div>
+<div class="relative z-10 size-12 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-xl border border-primary/20">
+<span class="material-symbols-outlined">map</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold">1. Scegli Regione</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Seleziona tra Piemonte, Lombardia o Liguria nel nostro selettore.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 relative">
+<div class="hidden sm:block absolute top-6 -right-1/2 w-full border-t-2 border-dashed border-gray-200 dark:border-gray-700 z-0"></div>
+<div class="relative z-10 size-12 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-xl border border-primary/20">
+<span class="material-symbols-outlined">edit_document</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold">2. Inserisci Dati</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Compila il modulo online con le informazioni catastali del tuo immobile.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 relative">
+<div class="relative z-10 size-12 rounded-full bg-accent/10 text-accent flex items-center justify-center font-bold text-xl border border-accent/20">
+<span class="material-symbols-outlined">send</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold">3. Ricevi APE</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">Il tecnico certificato redige l'APE e te lo invia via email in 48 ore.</p>
+</div>
+</div>
+</div>
+</div>
+<footer class="flex flex-col items-center justify-center py-8 text-center border-t border-gray-200 dark:border-gray-800">
+<div class="flex items-center gap-2 mb-2 text-[#0d121b] dark:text-white">
+<span class="material-symbols-outlined text-accent text-3xl">eco</span>
+<span class="font-bold text-xl">ApeGreen</span>
+</div>
+<a class="text-gray-500 dark:text-gray-400 font-medium hover:text-accent transition-colors mb-6 flex items-center gap-2" href="mailto:infoapegreen@gmail.com">
+<span class="material-symbols-outlined text-sm">mail</span>
+                    infoapegreen@gmail.com
+                </a>
+<div class="flex gap-6 mb-6">
+<a class="text-sm text-gray-500 dark:text-gray-400 hover:text-accent transition-colors" href="#">Privacy Policy</a>
+<a class="text-sm text-gray-500 dark:text-gray-400 hover:text-accent transition-colors" href="#">Termini di Servizio</a>
+<a class="text-sm text-gray-500 dark:text-gray-400 hover:text-accent transition-colors" href="#">Contattaci</a>
+</div>
+<p class="text-xs text-gray-400">© 2023 ApeGreen. Tutti i diritti riservati.</p>
+</footer>
+</div>
+</div>
+</body></html>
